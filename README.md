@@ -1,2 +1,2 @@
 # Blogging-App-using-MenStack
-Run npm install and them run app.js to run project
+Run npm install and the run node app.js to run project
