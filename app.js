@@ -14,8 +14,8 @@ var express                 =require("express"),
      var commentRoutes=require("./routes/comments");
      var authRoutes=require("./routes/auth");
      var campgroundRoutes=require("./routes/campgrounds");
-
-mongoose.connect( "mongodb+srv://Hussain:Hussain-2000@hussain-lmznc.gcp.mongodb.net/Yelpcampv2?retryWrites=true&w=majority");
+// Write your Database Uri here
+// mongoose.connect( "Enter Mongo Uri Here");
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
